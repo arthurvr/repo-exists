@@ -1,0 +1,32 @@
+{
+  "name": "repo-exists",
+  "version": "0.0.0",
+  "description": "Check if a GitHub repo exists",
+  "keywords": [
+    "open-source",
+    "github",
+    "git",
+    "name",
+    "repo",
+    "user",
+    "repository"
+  ],
+  "license": "MIT",
+  "author": "Arthur Verschaeve <contact@arthurverschaeve.be>",
+  "files": [
+    "index.js"
+  ],
+  "repository": "arthurvr/repo-exists",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "dependencies": {
+    "got": "^2.4.0"
+  },
+  "devDependencies": {
+    "ava": "^0.0.4"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
