@@ -1,0 +1,39 @@
+#!/usr/bin/env node
+'use strict';
+var meow = require('meow');
+var logSymbols = require('log-symbols');
+var repoExists = require('./');
+
+var cli = meow({
+	help: [
+		'Usage',
+		'',
+		'  $ repo-exists h5bp/html5please',
+		'  ' + logSymbols.success +' Exists!'
+	].join('\n')
+});
+
+if (!cli.input.length) {
+	console.error([
+		'Please provide a repo name',
+		'',
+		'  Example',
+		'  $ repo-exists h5bp/html5-boilerplate',
+		'  ' + logSymbols.success +' Exists!'
+	].join('\n'));
+
+	return;
+}
+
+repoExists(cli.input[0], function (err, exists) {
+	if (err) {
+		throw err;
+	}
+
+	if (exists) {
+		console.log(logSymbols.success, 'Exists!');
+		return;
+	}
+
+	console.log(logSymbols.error, 'Doesn\'t exist!');
+});

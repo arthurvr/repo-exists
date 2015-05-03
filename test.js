@@ -3,7 +3,7 @@ var test = require('ava');
 var repoExists = require('./');
 
 test(function (t) {
-	t.plan(2);
+	t.plan(4);
 
 	repoExists('arthurvr/something-that-does-not-exist', function (error, exists) {
 		t.assert(!error, error);

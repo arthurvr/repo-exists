@@ -21,6 +21,14 @@ repoExists('h5bp/html5please', function (error, exists) {
 });
 ```
 
+## CLI
+
+```
+$ npm install --global repo-exists
+```
+
+![](http://i.imgur.com/06B0lsE.png)
+
 ## License
 
 MIT © Arthur Verschaeve

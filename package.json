@@ -20,8 +20,13 @@
   "scripts": {
     "test": "node test.js"
   },
+  "bin": {
+    "repo-exists": "cli.js"
+  },
   "dependencies": {
-    "got": "^2.4.0"
+    "got": "^2.4.0",
+    "log-symbols": "^1.0.2",
+    "meow": "^3.1.0"
   },
   "devDependencies": {
     "ava": "^0.0.4"
