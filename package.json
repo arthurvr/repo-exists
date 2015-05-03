@@ -18,7 +18,7 @@
   ],
   "repository": "arthurvr/repo-exists",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test.js"
   },
   "dependencies": {
     "got": "^2.4.0"

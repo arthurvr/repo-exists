@@ -8,7 +8,7 @@
 $ npm install --save repo-exists
 ```
 
-```js
+```javascript
 var repoExists = require('repo-exists');
 
 repoExists('h5bp/html5please', function (error, exists) {
