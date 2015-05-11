@@ -1,8 +1,8 @@
 'use strict';
-var got = require('got');
+var ghGot = require('gh-got');
 
 module.exports = function (repo, cb) {
-	got.head('https://github.com/' + repo, function (err, data, res) {
+	ghGot('repos/' + repo, function (err, data) {
 		if (err && err.code === 404) {
 			cb(null, false);
 			return;

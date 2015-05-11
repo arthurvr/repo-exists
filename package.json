@@ -24,7 +24,7 @@
     "repo-exists": "cli.js"
   },
   "dependencies": {
-    "got": "^2.4.0",
+    "gh-got": "^1.0.3",
     "log-symbols": "^1.0.2",
     "meow": "^3.1.0"
   },
