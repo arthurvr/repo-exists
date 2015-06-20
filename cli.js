@@ -10,7 +10,7 @@ var cli = meow({
 		'',
 		'  $ repo-exists h5bp/html5please',
 		'  ' + logSymbols.success +' Exists!'
-	].join('\n')
+	]
 });
 
 if (!cli.input.length) {
