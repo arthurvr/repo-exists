@@ -7,17 +7,16 @@ var repoExists = require('./');
 var cli = meow({
 	help: [
 		'Usage',
-		'',
 		'  $ repo-exists h5bp/html5please',
 		'  ' + logSymbols.success +' Exists!'
 	]
 });
 
-if (!cli.input.length) {
+if (cli.input.length === 0) {
 	console.error([
 		'Please provide a repo name',
 		'',
-		'  Example',
+		'Example',
 		'  $ repo-exists h5bp/html5-boilerplate',
 		'  ' + logSymbols.success +' Exists!'
 	].join('\n'));

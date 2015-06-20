@@ -9,7 +9,10 @@
     "name",
     "repo",
     "user",
-    "repository"
+    "repository",
+    "existence",
+    "exists",
+    "API"
   ],
   "license": "MIT",
   "author": "Arthur Verschaeve <contact@arthurverschaeve.be>",
