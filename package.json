@@ -23,9 +23,7 @@
   "scripts": {
     "test": "node test.js"
   },
-  "bin": {
-    "repo-exists": "cli.js"
-  },
+  "bin": "cli.js",
   "dependencies": {
     "gh-got": "^1.0.3",
     "log-symbols": "^1.0.2",
