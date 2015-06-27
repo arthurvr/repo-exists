@@ -26,7 +26,8 @@ if (cli.input.length === 0) {
 
 repoExists(cli.input[0], function (err, exists) {
 	if (err) {
-		throw err;
+		console.error(err);
+		process.exit(1);
 	}
 
 	if (exists) {
