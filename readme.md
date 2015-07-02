@@ -31,4 +31,4 @@ $ npm install --global repo-exists
 
 ## License
 
-MIT © Arthur Verschaeve
+MIT © [Arthur Verschaeve](https://github.com/arthurvr)
