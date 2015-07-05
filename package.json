@@ -17,7 +17,8 @@
   "license": "MIT",
   "author": "Arthur Verschaeve <contact@arthurverschaeve.be>",
   "files": [
-    "index.js"
+    "index.js",
+    "cli.js"
   ],
   "repository": "arthurvr/repo-exists",
   "scripts": {
