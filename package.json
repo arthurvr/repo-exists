@@ -17,18 +17,14 @@
   "license": "MIT",
   "author": "Arthur Verschaeve <contact@arthurverschaeve.be>",
   "files": [
-    "index.js",
-    "cli.js"
+    "index.js"
   ],
   "repository": "arthurvr/repo-exists",
   "scripts": {
     "test": "node test.js"
   },
-  "bin": "cli.js",
   "dependencies": {
-    "gh-got": "^1.0.3",
-    "log-symbols": "^1.0.2",
-    "meow": "^3.3.0"
+    "gh-got": "^1.0.3"
   },
   "devDependencies": {
     "ava": "^0.0.4"
