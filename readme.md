@@ -1,4 +1,4 @@
-# repo-exists [![Build Status](https://travis-ci.org/arthurvr/repo-exists.svg?branch=master)](https://travis-ci.org/arthurvr/repo-exists)
+# repo-exists
 
 > Check if a GitHub repo exists
 
