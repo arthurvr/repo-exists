@@ -21,13 +21,14 @@
   ],
   "repository": "arthurvr/repo-exists",
   "scripts": {
-    "test": "node test.js"
+    "test": "xo && node test.js"
   },
   "dependencies": {
     "gh-got": "^1.0.3"
   },
   "devDependencies": {
-    "ava": "^0.0.4"
+    "ava": "^0.0.4",
+    "xo": "*"
   },
   "engines": {
     "node": ">=0.10.0"
