@@ -4,6 +4,7 @@
 
 *See [repo-exists-cli](https://github.com/arthurvr/repo-exists-cli) for the CLI version.*
 
+
 ## Usage
 
 ```
@@ -26,4 +27,4 @@ repoExists('h5bp/html5please', function (error, exists) {
 
 ## License
 
-MIT © [Arthur Verschaeve](https://github.com/arthurvr)
+MIT © [Arthur Verschaeve](http://arthurverschaeve.be)
