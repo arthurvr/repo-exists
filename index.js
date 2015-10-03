@@ -2,7 +2,7 @@
 var ghGot = require('gh-got');
 
 module.exports = function (repo, cb) {
-	ghGot('repos/' + repo, function (err, data) {
+	ghGot('repos/' + repo, function (err) {
 		if (err && err.code === 404) {
 			cb(null, false);
 			return;
