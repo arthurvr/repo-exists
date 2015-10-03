@@ -1,16 +1,15 @@
-'use strict';
-var test = require('ava');
-var repoExists = require('./');
+import test from 'ava';
+import repoExists from './';
 
-test(function (t) {
+test(t => {
 	t.plan(4);
 
-	repoExists('arthurvr/something-that-does-not-exist', function (error, exists) {
+	repoExists('arthurvr/something-that-does-not-exist', (error, exists) => {
 		t.error(error);
 		t.false(exists);
 	});
 
-	repoExists('h5bp/html5-boilerplate', function (error, exists) {
+	repoExists('h5bp/html5-boilerplate', (error, exists) => {
 		t.error(error);
 		t.true(exists);
 	});
