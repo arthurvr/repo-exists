@@ -12,9 +12,9 @@ $ npm install --save repo-exists
 ```
 
 ```javascript
-var repoExists = require('repo-exists');
+const repoExists = require('repo-exists');
 
-repoExists('h5bp/html5please', function (error, exists) {
+repoExists('h5bp/html5please', (error, exists) => {
 	if (error) {
 		throw error;
 	}
